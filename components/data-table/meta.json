@@ -1,0 +1,22 @@
+{
+  "name": "data-table",
+  "description": "Feature-rich data table with search, sorting, filtering, pagination, and loading states.",
+  "categories": [
+    "ui",
+    "data",
+    "forms"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "data-table.blade.php"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

@@ -1,0 +1,26 @@
+{
+  "name": "date-picker",
+  "description": "Date picker with calendar interface, date formatting, and validation.",
+  "categories": [
+    "ui",
+    "forms",
+    "input"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "date-picker.blade.php"
+    },
+    {
+      "type": "js",
+      "path": "date-picker.js"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

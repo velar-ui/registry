@@ -1,0 +1,22 @@
+{
+  "name": "skeleton",
+  "description": "Skeleton loading component with multiple variants and customizable shapes.",
+  "categories": [
+    "ui",
+    "feedback",
+    "layout"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "skeleton.blade.php"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

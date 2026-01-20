@@ -1,0 +1,22 @@
+{
+  "name": "toggle",
+  "description": "Toggle switch component with multiple sizes and accessibility features.",
+  "categories": [
+    "ui",
+    "forms",
+    "interactive"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "toggle.blade.php"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

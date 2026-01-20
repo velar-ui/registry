@@ -1,0 +1,22 @@
+{
+  "name": "file-upload",
+  "description": "File upload component with drag-and-drop, image previews, and progress tracking.",
+  "categories": [
+    "ui",
+    "forms",
+    "interactive"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "file-upload.blade.php"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

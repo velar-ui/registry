@@ -1,0 +1,22 @@
+{
+  "name": "code-snippet",
+  "description": "Code snippet component with syntax highlighting, line numbers, and copy functionality.",
+  "categories": [
+    "ui",
+    "data",
+    "text"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "code-snippet.blade.php"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

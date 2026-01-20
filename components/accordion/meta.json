@@ -1,0 +1,26 @@
+{
+  "name": "accordion",
+  "description": "Collapsible accordion component with smooth animations and multiple item support.",
+  "categories": [
+    "ui",
+    "interactive",
+    "layout"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "accordion.blade.php"
+    },
+    {
+      "type": "js",
+      "path": "accordion.js"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

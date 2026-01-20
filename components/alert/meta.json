@@ -1,0 +1,22 @@
+{
+  "name": "alert",
+  "description": "Alert component with variants, icons, and optional dismissible functionality.",
+  "categories": [
+    "ui",
+    "feedback",
+    "interactive"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "alert.blade.php"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

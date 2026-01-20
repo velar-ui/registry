@@ -1,0 +1,26 @@
+{
+  "name": "rating",
+  "description": "Star rating component with half-star support, hover effects, and value display.",
+  "categories": [
+    "ui",
+    "forms",
+    "interactive"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "rating.blade.php"
+    },
+    {
+      "type": "js",
+      "path": "rating.js"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

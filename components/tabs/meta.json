@@ -1,0 +1,24 @@
+{
+  "name": "tabs",
+  "description": "A tabs component with content, list and trigger sub-components.",
+  "categories": ["ui", "interactive", "layout"],
+  "files": [
+    {
+      "type": "blade",
+      "path": "content.blade.php"
+    },
+    {
+      "type": "blade",
+      "path": "list.blade.php"
+    },
+    {
+      "type": "blade",
+      "path": "trigger.blade.php"
+    }
+  ],
+  "dependencies": {
+    "composer": ["mallardduck/blade-lucide-icons"],
+    "npm": []
+  },
+  "components": []
+}

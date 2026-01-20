@@ -1,0 +1,26 @@
+{
+  "name": "command-palette",
+  "description": "Command palette with keyboard shortcuts, search, and command execution.",
+  "categories": [
+    "ui",
+    "interactive",
+    "navigation"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "command-palette.blade.php"
+    },
+    {
+      "type": "js",
+      "path": "command-palette.js"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

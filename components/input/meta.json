@@ -1,0 +1,22 @@
+{
+  "name": "input",
+  "description": "Form input field with label, error handling, password toggle, and icons.",
+  "categories": [
+    "forms",
+    "ui",
+    "input"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "input.blade.php"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

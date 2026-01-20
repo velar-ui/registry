@@ -1,0 +1,22 @@
+{
+  "name": "avatar-group",
+  "description": "Stacked avatar group for displaying multiple users with overflow indicator.",
+  "categories": [
+    "ui",
+    "media",
+    "layout"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "avatar-group.blade.php"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "tooltip",
+  "description": "Tooltip component with configurable positioning and delay settings.",
+  "categories": [
+    "ui",
+    "overlay",
+    "feedback"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "tooltip.blade.php"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

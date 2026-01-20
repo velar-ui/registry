@@ -1,0 +1,22 @@
+{
+  "name": "dropdown",
+  "description": "Dropdown select component with search, keyboard navigation, and multiple options.",
+  "categories": [
+    "ui",
+    "forms",
+    "interactive"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "dropdown.blade.php"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

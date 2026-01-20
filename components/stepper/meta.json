@@ -1,0 +1,26 @@
+{
+  "name": "stepper",
+  "description": "Multi-step stepper component with horizontal and vertical layouts.",
+  "categories": [
+    "ui",
+    "navigation",
+    "forms"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "stepper.blade.php"
+    },
+    {
+      "type": "js",
+      "path": "stepper.js"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}

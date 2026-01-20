@@ -1,0 +1,26 @@
+{
+  "name": "sortable-list",
+  "description": "Drag-and-drop sortable list component with handles and animations.",
+  "categories": [
+    "ui",
+    "interactive",
+    "layout"
+  ],
+  "files": [
+    {
+      "type": "blade",
+      "path": "sortable-list.blade.php"
+    },
+    {
+      "type": "js",
+      "path": "sortable-list.js"
+    }
+  ],
+  "dependencies": {
+    "composer": [
+      "mallardduck/blade-lucide-icons"
+    ],
+    "npm": []
+  },
+  "components": []
+}
