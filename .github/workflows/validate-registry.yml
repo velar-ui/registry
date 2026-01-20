@@ -1,0 +1,43 @@
+name: Validate registry.json
+
+on:
+  push: {}
+  pull_request: {}
+
+jobs:
+  validate-registry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify registry contains all meta.json
+        run: |
+          python3 - <<'PY'
+          import json,glob,os,sys
+          reg_path='registry.json'
+          if not os.path.exists(reg_path):
+              print('registry.json not found',file=sys.stderr); sys.exit(1)
+          with open(reg_path) as f:
+              reg=json.load(f)
+          meta_paths=sorted([p.replace('\\','/') for p in glob.glob('components/**/meta.json', recursive=True)])
+          reg_paths=[]
+          for c in reg.get('components',[]):
+              p=c.get('path') or ''
+              if p:
+                  reg_paths.append(p.replace('\\','/'))
+              else:
+                  name=c.get('name')
+                  if name:
+                      reg_paths.append(f'components/{name}/meta.json')
+          reg_paths=sorted(set(reg_paths))
+          missing=[p for p in meta_paths if p not in reg_paths]
+          extra=[p for p in reg_paths if p not in meta_paths]
+          if missing:
+              print('Missing in registry.json:')
+              for m in missing: print('  '+m)
+          if extra:
+              print('Extra entries in registry.json:')
+              for e in extra: print('  '+e)
+          if missing:
+              sys.exit(2)
+          print('registry.json contains all meta.json files')
+          PY
