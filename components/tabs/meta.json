@@ -1,8 +1,12 @@
 {
   "name": "tabs",
-  "description": "A tabs component with content, list and trigger sub-components.",
+  "description": "A tabs component with main container and sub-components.",
   "categories": ["ui", "interactive", "layout"],
   "files": [
+    {
+      "type": "blade",
+      "path": "tabs.blade.php"
+    },
     {
       "type": "blade",
       "path": "content.blade.php"
