@@ -1,11 +1,7 @@
 {
   "name": "skeleton",
   "description": "Skeleton loading component with multiple variants and customizable shapes.",
-  "categories": [
-    "ui",
-    "feedback",
-    "layout"
-  ],
+  "categories": ["ui", "feedback", "layout"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

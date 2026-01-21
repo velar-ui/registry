@@ -23,6 +23,5 @@
   "dependencies": {
     "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

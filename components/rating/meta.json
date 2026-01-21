@@ -1,11 +1,7 @@
 {
   "name": "rating",
   "description": "Star rating component with half-star support, hover effects, and value display.",
-  "categories": [
-    "ui",
-    "forms",
-    "interactive"
-  ],
+  "categories": ["ui", "forms", "interactive"],
   "files": [
     {
       "type": "blade",
@@ -17,10 +13,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

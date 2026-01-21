@@ -1,11 +1,7 @@
 {
   "name": "badge",
   "description": "Badge component with variants, sizes, and optional remove functionality.",
-  "categories": [
-    "ui",
-    "feedback",
-    "forms"
-  ],
+  "categories": ["ui", "feedback", "forms"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

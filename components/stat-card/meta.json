@@ -1,11 +1,7 @@
 {
   "name": "stat-card",
   "description": "Statistics card component with trend indicators and customizable variants.",
-  "categories": [
-    "ui",
-    "data",
-    "feedback"
-  ],
+  "categories": ["ui", "data", "feedback"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

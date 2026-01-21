@@ -1,11 +1,7 @@
 {
   "name": "tooltip",
   "description": "Tooltip component with configurable positioning and delay settings.",
-  "categories": [
-    "ui",
-    "overlay",
-    "feedback"
-  ],
+  "categories": ["ui", "overlay", "feedback"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

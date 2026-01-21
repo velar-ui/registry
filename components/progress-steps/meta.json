@@ -1,11 +1,7 @@
 {
   "name": "progress-steps",
   "description": "Progress steps component with clickable steps, labels, and descriptions.",
-  "categories": [
-    "ui",
-    "navigation",
-    "feedback"
-  ],
+  "categories": ["ui", "navigation", "feedback"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

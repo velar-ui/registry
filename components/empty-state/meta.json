@@ -1,11 +1,7 @@
 {
   "name": "empty-state",
   "description": "Empty state component with icon, title, description, and optional action button.",
-  "categories": [
-    "ui",
-    "feedback",
-    "layout"
-  ],
+  "categories": ["ui", "feedback", "layout"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

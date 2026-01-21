@@ -1,11 +1,7 @@
 {
   "name": "toast",
   "description": "Toast notification system with multiple variants, positions, and auto-dismissal.",
-  "categories": [
-    "ui",
-    "feedback",
-    "overlay"
-  ],
+  "categories": ["ui", "feedback", "overlay"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

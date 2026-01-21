@@ -1,11 +1,7 @@
 {
   "name": "kbd",
   "description": "Keyboard key component with icon support and multiple variants.",
-  "categories": [
-    "ui",
-    "feedback",
-    "text"
-  ],
+  "categories": ["ui", "feedback", "text"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

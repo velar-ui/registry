@@ -1,11 +1,7 @@
 {
   "name": "popover",
   "description": "Popover component with configurable positioning and trigger options.",
-  "categories": [
-    "ui",
-    "overlay",
-    "interactive"
-  ],
+  "categories": ["ui", "overlay", "interactive"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

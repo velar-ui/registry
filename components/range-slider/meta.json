@@ -1,11 +1,7 @@
 {
   "name": "range-slider",
   "description": "Range slider component with single and double handle modes, custom styling.",
-  "categories": [
-    "ui",
-    "forms",
-    "input"
-  ],
+  "categories": ["ui", "forms", "input"],
   "files": [
     {
       "type": "blade",
@@ -17,10 +13,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

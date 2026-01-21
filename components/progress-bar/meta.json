@@ -1,11 +1,7 @@
 {
   "name": "progress-bar",
   "description": "Progress bar component with variants, sizes, and percentage display.",
-  "categories": [
-    "ui",
-    "feedback",
-    "data"
-  ],
+  "categories": ["ui", "feedback", "data"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

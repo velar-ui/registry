@@ -1,11 +1,7 @@
 {
   "name": "breadcrumbs",
   "description": "Navigation breadcrumb component with customizable separators and links.",
-  "categories": [
-    "ui",
-    "navigation",
-    "layout"
-  ],
+  "categories": ["ui", "navigation", "layout"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

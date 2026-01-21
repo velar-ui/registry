@@ -16,7 +16,7 @@ export default (options = {}) => ({
         handle: options.handle ? ".sortable-handle" : null,
         forceFallback: true,
         fallbackClass: "sortable-fallback",
-        onEnd: (evt) => {
+        onEnd: () => {
           const items = list.querySelectorAll("[data-id]");
           const orderedIds = Array.from(items).map((item) => item.dataset.id);
 

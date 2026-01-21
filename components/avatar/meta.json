@@ -1,11 +1,7 @@
 {
   "name": "avatar",
   "description": "User avatar with image fallback, initials, and status indicators.",
-  "categories": [
-    "ui",
-    "media",
-    "feedback"
-  ],
+  "categories": ["ui", "media", "feedback"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }

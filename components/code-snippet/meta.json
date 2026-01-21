@@ -1,11 +1,7 @@
 {
   "name": "code-snippet",
   "description": "Code snippet component with syntax highlighting, line numbers, and copy functionality.",
-  "categories": [
-    "ui",
-    "data",
-    "text"
-  ],
+  "categories": ["ui", "data", "text"],
   "files": [
     {
       "type": "blade",
@@ -13,10 +9,7 @@
     }
   ],
   "dependencies": {
-    "composer": [
-      "mallardduck/blade-lucide-icons"
-    ],
+    "composer": ["mallardduck/blade-lucide-icons"],
     "npm": []
-  },
-  "components": []
+  }
 }
