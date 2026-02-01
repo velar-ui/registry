@@ -31,20 +31,9 @@
 
 <div
     {{ $attributes->merge(['class' => 'relative inline-flex']) }}
-    x-data="{
-        show: false,
-        timeout: null,
-        delay: {{ $delay }},
-        showTooltip() {
-            this.timeout = setTimeout(() => {
-                this.show = true;
-            }, this.delay);
-        },
-        hideTooltip() {
-            clearTimeout(this.timeout);
-            this.show = false;
-        }
-    }"
+    x-data="tooltip({
+        delay: {{ $delay }}
+    })"
     @mouseenter="showTooltip()"
     @mouseleave="hideTooltip()"
     @focus="showTooltip()"

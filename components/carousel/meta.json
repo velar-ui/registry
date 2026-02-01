@@ -1,7 +1,11 @@
 {
   "name": "carousel",
   "description": "Image carousel with autoplay, navigation arrows, dots indicator, and captions.",
-  "categories": ["ui", "media", "interactive"],
+  "categories": [
+    "ui",
+    "media",
+    "interactive"
+  ],
   "files": [
     {
       "type": "blade",
@@ -13,7 +17,9 @@
     }
   ],
   "dependencies": {
-    "composer": ["mallardduck/blade-lucide-icons"],
+    "composer": [
+      "mallardduck/blade-lucide-icons@1.26.1"
+    ],
     "npm": []
   }
 }

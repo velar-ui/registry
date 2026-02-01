@@ -40,19 +40,11 @@
 ])
 data-test="toggle-container"
 @if($name) data-test-name="{{ $name }}" wire:key="toggle-{{ $name }}" @endif
-x-data="{
+x-data="toggle({
     checked: {{ $isChecked ? 'true' : 'false' }},
-
-    toggle() {
-        if ({{ $disabled ? 'true' : 'false' }}) return;
-
-        this.checked = !this.checked;
-
-        @if($name)
-        $wire.set('{{ $name }}', this.checked);
-        @endif
-    }
-}">
+    disabled: {{ $disabled ? 'true' : 'false' }},
+    name: '{{ $name }}'
+})">
     <!-- Toggle Switch -->
     <button
         type="button"

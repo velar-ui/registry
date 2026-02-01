@@ -8,15 +8,9 @@
 @endphp
 
 <div
-    x-data="{
-        activeTab: '{{ $default }}',
-        init() {
-            if (!this.activeTab) {
-                const firstTab = this.$el.querySelector('[role=tab]');
-                this.activeTab = firstTab?.dataset?.tab || '';
-            }
-        }
-    }"
+    x-data="tabs({
+        default: '{{ $default }}'
+    })"
     {{ $attributes->merge(['class' => 'w-full']) }}
 >
     {{ $slot }}

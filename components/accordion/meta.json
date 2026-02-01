@@ -1,7 +1,11 @@
 {
   "name": "accordion",
   "description": "Collapsible accordion component with smooth animations and multiple item support.",
-  "categories": ["ui", "interactive", "layout"],
+  "categories": [
+    "ui",
+    "interactive",
+    "layout"
+  ],
   "files": [
     {
       "type": "blade",
@@ -13,7 +17,9 @@
     }
   ],
   "dependencies": {
-    "composer": ["mallardduck/blade-lucide-icons"],
+    "composer": [
+      "mallardduck/blade-lucide-icons@1.26.1"
+    ],
     "npm": []
   }
 }

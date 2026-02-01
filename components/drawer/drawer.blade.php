@@ -43,14 +43,10 @@
 @endphp
 
 <div
-    x-data="{
-        open: false,
-        toggle() { this.open = !this.open },
-        close() { this.open = false }
-    }"
-    @open-drawer.window="if ($event.detail?.id === $el.id || !$event.detail?.id) open = true"
-    @close-drawer.window="if ($event.detail?.id === $el.id || !$event.detail?.id) open = false"
-    @toggle-drawer.window="if ($event.detail?.id === $el.id || !$event.detail?.id) toggle()"
+    x-data="drawer()"
+    @open-drawer.window="handleOpenEvent($event)"
+    @close-drawer.window="handleCloseEvent($event)"
+    @toggle-drawer.window="handleToggleEvent($event)"
     {{ $attributes->merge(['class' => 'relative']) }}
     data-test="drawer-container"
 >

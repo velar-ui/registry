@@ -1,7 +1,11 @@
 {
   "name": "tabs",
   "description": "A tabs component with main container and sub-components.",
-  "categories": ["ui", "interactive", "layout"],
+  "categories": [
+    "ui",
+    "interactive",
+    "layout"
+  ],
   "files": [
     {
       "type": "blade",
@@ -21,7 +25,9 @@
     }
   ],
   "dependencies": {
-    "composer": ["mallardduck/blade-lucide-icons"],
+    "composer": [
+      "mallardduck/blade-lucide-icons@1.26.1"
+    ],
     "npm": []
   }
 }

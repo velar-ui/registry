@@ -22,11 +22,14 @@
 @endphp
 
 <div
-    x-data="{ open: false }"
+    x-data="modal({
+        id: '{{ $id }}',
+        closeable: {{ $closeable ? 'true' : 'false' }}
+    })"
     x-on:open-modal-{{ $id }}.window="open = true"
     x-on:close-modal-{{ $id }}.window="open = false"
     @if($closeable)
-        x-on:keydown.escape.window="open = false"
+        x-on:keydown.escape.window="handleKeydown($event)"
     @endif
     x-show="open"
     class="fixed inset-0 z-50 overflow-y-auto"
@@ -45,7 +48,7 @@
         x-transition:leave-start="opacity-100"
         x-transition:leave-end="opacity-0"
         class="fixed inset-0 bg-background/80 backdrop-blur-sm transition-opacity"
-        @if($closeable) @click="open = false" @endif
+        @if($closeable) @click="close()" @endif
     ></div>
 
     <!-- Modal Panel -->

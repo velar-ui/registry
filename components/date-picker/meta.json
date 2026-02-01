@@ -1,7 +1,11 @@
 {
   "name": "date-picker",
   "description": "Date picker with calendar interface, date formatting, and validation.",
-  "categories": ["ui", "forms", "input"],
+  "categories": [
+    "ui",
+    "forms",
+    "input"
+  ],
   "files": [
     {
       "type": "blade",
@@ -13,7 +17,9 @@
     }
   ],
   "dependencies": {
-    "composer": ["mallardduck/blade-lucide-icons"],
+    "composer": [
+      "mallardduck/blade-lucide-icons@1.26.1"
+    ],
     "npm": []
   }
 }

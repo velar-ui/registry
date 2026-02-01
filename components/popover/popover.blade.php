@@ -33,21 +33,14 @@
 
 <div
     {{ $attributes->merge(['class' => 'relative inline-flex']) }}
-    x-data="{
-        open: false,
-        trigger: '{{ $trigger }}',
-        toggle() {
-            this.open = !this.open;
-        },
-        close() {
-            this.open = false;
-        }
-    }"
+    x-data="popover({
+        trigger: '{{ $trigger }}'
+    })"
     @if($trigger === 'hover')
-        @mouseenter="open = true"
-        @mouseleave="open = false"
+        @mouseenter="handleHover()"
+        @mouseleave="handleLeave()"
     @endif
-    @keydown.escape.window="close()"
+    @keydown.escape.window="handleEscape()"
     data-test="popover-container"
 >
     {{-- Trigger --}}

@@ -18,35 +18,9 @@
     class="w-full"
     data-test="file-upload-container"
     @if($wireModel) data-test-name="{{ $wireModel }}" wire:key="file-upload-{{ $wireModel }}" @endif
-    x-data="{
-        isDragging: false,
-        uploadProgress: 0,
-        isUploading: false,
-        previews: [],
-        fileNames: [],
-
-        handleFiles(files) {
-            if (!files || files.length === 0) return;
-
-            this.fileNames = Array.from(files).map(f => f.name);
-            this.previews = [];
-
-            @if($isImage)
-            Array.from(files).forEach(file => {
-                if (file.type.startsWith('image/')) {
-                    const url = URL.createObjectURL(file);
-                    this.previews.push(url);
-                }
-            });
-            @endif
-        },
-
-        clearPreviews() {
-            this.previews.forEach(url => URL.revokeObjectURL(url));
-            this.previews = [];
-            this.fileNames = [];
-        }
-    }"
+    x-data="fileUpload({
+        isImage: {{ $isImage ? 'true' : 'false' }}
+    })"
 >
     @if($label)
         <label class="block text-sm font-semibold text-foreground mb-2" data-test="file-upload-label">

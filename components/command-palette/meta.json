@@ -1,7 +1,11 @@
 {
   "name": "command-palette",
   "description": "Command palette with keyboard shortcuts, search, and command execution.",
-  "categories": ["ui", "interactive", "navigation"],
+  "categories": [
+    "ui",
+    "interactive",
+    "navigation"
+  ],
   "files": [
     {
       "type": "blade",
@@ -13,7 +17,9 @@
     }
   ],
   "dependencies": {
-    "composer": ["mallardduck/blade-lucide-icons"],
+    "composer": [
+      "mallardduck/blade-lucide-icons@1.26.1"
+    ],
     "npm": []
   }
 }

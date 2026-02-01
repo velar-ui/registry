@@ -46,7 +46,9 @@
 @endphp
 
 <div
-    x-data="{ open: true }"
+    x-data="alert({
+        dismissible: {{ $dismissible ? 'true' : 'false' }}
+    })"
     x-show="open"
     x-transition:enter="transition ease-out duration-300"
     x-transition:enter-start="opacity-0 scale-95"
@@ -77,7 +79,7 @@
     @if($dismissible)
         <button
             type="button"
-            @click="open = false"
+            @click="close()"
             class="shrink-0 inline-flex items-center justify-center size-6 rounded-md transition-colors {{ $closeButtonClasses }}"
             aria-label="Close alert"
         >

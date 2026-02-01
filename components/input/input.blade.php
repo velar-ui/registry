@@ -58,12 +58,7 @@
     }
 @endphp
 
-<div {{ $attributes->class(['space-y-2']) }} x-data="{
-    showPassword: false,
-    togglePassword() {
-        this.showPassword = !this.showPassword;
-    }
-}">
+<div {{ $attributes->class(['space-y-2']) }} x-data="input()">
     <!-- Label -->
     @if($label)
         <label for="{{ $inputId }}" class="block text-sm font-medium text-foreground">

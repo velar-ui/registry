@@ -3,10 +3,21 @@
     {
       "name": "progress-steps",
       "description": "Progress steps component with clickable steps, labels, and descriptions.",
-      "categories": ["ui", "navigation", "feedback"],
-      "files": [{ "type": "blade", "path": "progress-steps.blade.php" }],
+      "categories": [
+        "ui",
+        "navigation",
+        "feedback"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "progress-steps.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/progress-steps/meta.json"
@@ -14,13 +25,25 @@
     {
       "name": "range-slider",
       "description": "Range slider component with single and double handle modes, custom styling.",
-      "categories": ["ui", "forms", "input"],
+      "categories": [
+        "ui",
+        "forms",
+        "input"
+      ],
       "files": [
-        { "type": "blade", "path": "range-slider.blade.php" },
-        { "type": "js", "path": "range-slider.js" }
+        {
+          "type": "blade",
+          "path": "range-slider.blade.php"
+        },
+        {
+          "type": "js",
+          "path": "range-slider.js"
+        }
       ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/range-slider/meta.json"
@@ -28,10 +51,21 @@
     {
       "name": "code-snippet",
       "description": "Code snippet component with syntax highlighting, line numbers, and copy functionality.",
-      "categories": ["ui", "data", "text"],
-      "files": [{ "type": "blade", "path": "code-snippet.blade.php" }],
+      "categories": [
+        "ui",
+        "data",
+        "text"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "code-snippet.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/code-snippet/meta.json"
@@ -39,10 +73,21 @@
     {
       "name": "kbd",
       "description": "Keyboard key component with icon support and multiple variants.",
-      "categories": ["ui", "feedback", "text"],
-      "files": [{ "type": "blade", "path": "kbd.blade.php" }],
+      "categories": [
+        "ui",
+        "feedback",
+        "text"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "kbd.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/kbd/meta.json"
@@ -50,10 +95,21 @@
     {
       "name": "badge",
       "description": "Badge component with variants, sizes, and optional remove functionality.",
-      "categories": ["ui", "feedback", "forms"],
-      "files": [{ "type": "blade", "path": "badge.blade.php" }],
+      "categories": [
+        "ui",
+        "feedback",
+        "forms"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "badge.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/badge/meta.json"
@@ -61,10 +117,21 @@
     {
       "name": "file-upload",
       "description": "File upload component with drag-and-drop, image previews, and progress tracking.",
-      "categories": ["ui", "forms", "interactive"],
-      "files": [{ "type": "blade", "path": "file-upload.blade.php" }],
+      "categories": [
+        "ui",
+        "forms",
+        "interactive"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "file-upload.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/file-upload/meta.json"
@@ -72,10 +139,21 @@
     {
       "name": "toast",
       "description": "Toast notification system with multiple variants, positions, and auto-dismissal.",
-      "categories": ["ui", "feedback", "overlay"],
-      "files": [{ "type": "blade", "path": "toast.blade.php" }],
+      "categories": [
+        "ui",
+        "feedback",
+        "overlay"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "toast.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/toast/meta.json"
@@ -83,13 +161,25 @@
     {
       "name": "carousel",
       "description": "Image carousel with autoplay, navigation arrows, dots indicator, and captions.",
-      "categories": ["ui", "media", "interactive"],
+      "categories": [
+        "ui",
+        "media",
+        "interactive"
+      ],
       "files": [
-        { "type": "blade", "path": "carousel.blade.php" },
-        { "type": "js", "path": "carousel.js" }
+        {
+          "type": "blade",
+          "path": "carousel.blade.php"
+        },
+        {
+          "type": "js",
+          "path": "carousel.js"
+        }
       ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/carousel/meta.json"
@@ -97,10 +187,21 @@
     {
       "name": "data-table",
       "description": "Feature-rich data table with search, sorting, filtering, pagination, and loading states.",
-      "categories": ["ui", "data", "forms"],
-      "files": [{ "type": "blade", "path": "data-table.blade.php" }],
+      "categories": [
+        "ui",
+        "data",
+        "forms"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "data-table.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/data-table/meta.json"
@@ -108,10 +209,21 @@
     {
       "name": "dropdown",
       "description": "Dropdown select component with search, keyboard navigation, and multiple options.",
-      "categories": ["ui", "forms", "interactive"],
-      "files": [{ "type": "blade", "path": "dropdown.blade.php" }],
+      "categories": [
+        "ui",
+        "forms",
+        "interactive"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "dropdown.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/dropdown/meta.json"
@@ -119,10 +231,21 @@
     {
       "name": "alert",
       "description": "Alert component with variants, icons, and optional dismissible functionality.",
-      "categories": ["ui", "feedback", "interactive"],
-      "files": [{ "type": "blade", "path": "alert.blade.php" }],
+      "categories": [
+        "ui",
+        "feedback",
+        "interactive"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "alert.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/alert/meta.json"
@@ -130,10 +253,21 @@
     {
       "name": "popover",
       "description": "Popover component with configurable positioning and trigger options.",
-      "categories": ["ui", "overlay", "interactive"],
-      "files": [{ "type": "blade", "path": "popover.blade.php" }],
+      "categories": [
+        "ui",
+        "overlay",
+        "interactive"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "popover.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/popover/meta.json"
@@ -141,10 +275,21 @@
     {
       "name": "avatar-group",
       "description": "Stacked avatar group for displaying multiple users with overflow indicator.",
-      "categories": ["ui", "media", "layout"],
-      "files": [{ "type": "blade", "path": "avatar-group.blade.php" }],
+      "categories": [
+        "ui",
+        "media",
+        "layout"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "avatar-group.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/avatar-group/meta.json"
@@ -152,10 +297,21 @@
     {
       "name": "toggle",
       "description": "Toggle switch component with multiple sizes and accessibility features.",
-      "categories": ["ui", "forms", "interactive"],
-      "files": [{ "type": "blade", "path": "toggle.blade.php" }],
+      "categories": [
+        "ui",
+        "forms",
+        "interactive"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "toggle.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/toggle/meta.json"
@@ -163,10 +319,21 @@
     {
       "name": "stat-card",
       "description": "Statistics card component with trend indicators and customizable variants.",
-      "categories": ["ui", "data", "feedback"],
-      "files": [{ "type": "blade", "path": "stat-card.blade.php" }],
+      "categories": [
+        "ui",
+        "data",
+        "feedback"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "stat-card.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/stat-card/meta.json"
@@ -174,13 +341,25 @@
     {
       "name": "stepper",
       "description": "Multi-step stepper component with horizontal and vertical layouts.",
-      "categories": ["ui", "navigation", "forms"],
+      "categories": [
+        "ui",
+        "navigation",
+        "forms"
+      ],
       "files": [
-        { "type": "blade", "path": "stepper.blade.php" },
-        { "type": "js", "path": "stepper.js" }
+        {
+          "type": "blade",
+          "path": "stepper.blade.php"
+        },
+        {
+          "type": "js",
+          "path": "stepper.js"
+        }
       ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/stepper/meta.json"
@@ -188,15 +367,33 @@
     {
       "name": "tabs",
       "description": "A tabs component with main container and sub-components.",
-      "categories": ["ui", "interactive", "layout"],
+      "categories": [
+        "ui",
+        "interactive",
+        "layout"
+      ],
       "files": [
-        { "type": "blade", "path": "tabs.blade.php" },
-        { "type": "blade", "path": "content.blade.php" },
-        { "type": "blade", "path": "list.blade.php" },
-        { "type": "blade", "path": "trigger.blade.php" }
+        {
+          "type": "blade",
+          "path": "tabs.blade.php"
+        },
+        {
+          "type": "blade",
+          "path": "content.blade.php"
+        },
+        {
+          "type": "blade",
+          "path": "list.blade.php"
+        },
+        {
+          "type": "blade",
+          "path": "trigger.blade.php"
+        }
       ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/tabs/meta.json"
@@ -204,10 +401,21 @@
     {
       "name": "avatar",
       "description": "User avatar with image fallback, initials, and status indicators.",
-      "categories": ["ui", "media", "feedback"],
-      "files": [{ "type": "blade", "path": "avatar.blade.php" }],
+      "categories": [
+        "ui",
+        "media",
+        "feedback"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "avatar.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/avatar/meta.json"
@@ -215,36 +423,65 @@
     {
       "name": "tooltip",
       "description": "Tooltip component with configurable positioning and delay settings.",
-      "categories": ["ui", "overlay", "feedback"],
-      "files": [{ "type": "blade", "path": "tooltip.blade.php" }],
+      "categories": [
+        "ui",
+        "overlay",
+        "feedback"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "tooltip.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/tooltip/meta.json"
     },
     {
       "name": "button",
-      "type": "registry:ui",
       "description": "A versatile button component with variants, sizes, and icon support.",
-      "categories": ["ui", "forms", "interactive"],
+      "categories": [
+        "ui",
+        "forms",
+        "interactive"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "button.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
-      "registryDependencies": [],
-      "files": { "button.blade.php.stub": "button.blade.php" },
-      "css_vars": {},
-      "tailwind": { "config": { "theme": { "extend": {} } } },
       "path": "components/button/meta.json"
     },
     {
       "name": "timeline",
       "description": "Timeline component with vertical/horizontal layouts, animations, and multiple event types.",
-      "categories": ["ui", "data", "layout"],
-      "files": [{ "type": "blade", "path": "timeline.blade.php" }],
+      "categories": [
+        "ui",
+        "data",
+        "layout"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "timeline.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/timeline/meta.json"
@@ -252,10 +489,21 @@
     {
       "name": "empty-state",
       "description": "Empty state component with icon, title, description, and optional action button.",
-      "categories": ["ui", "feedback", "layout"],
-      "files": [{ "type": "blade", "path": "empty-state.blade.php" }],
+      "categories": [
+        "ui",
+        "feedback",
+        "layout"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "empty-state.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/empty-state/meta.json"
@@ -263,13 +511,25 @@
     {
       "name": "command-palette",
       "description": "Command palette with keyboard shortcuts, search, and command execution.",
-      "categories": ["ui", "interactive", "navigation"],
+      "categories": [
+        "ui",
+        "interactive",
+        "navigation"
+      ],
       "files": [
-        { "type": "blade", "path": "command-palette.blade.php" },
-        { "type": "js", "path": "command-palette.js" }
+        {
+          "type": "blade",
+          "path": "command-palette.blade.php"
+        },
+        {
+          "type": "js",
+          "path": "command-palette.js"
+        }
       ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/command-palette/meta.json"
@@ -277,10 +537,21 @@
     {
       "name": "drawer",
       "description": "Slide-out drawer panel with multiple positions and overlay support.",
-      "categories": ["ui", "overlay", "layout"],
-      "files": [{ "type": "blade", "path": "drawer.blade.php" }],
+      "categories": [
+        "ui",
+        "overlay",
+        "layout"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "drawer.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/drawer/meta.json"
@@ -288,10 +559,21 @@
     {
       "name": "skeleton",
       "description": "Skeleton loading component with multiple variants and customizable shapes.",
-      "categories": ["ui", "feedback", "layout"],
-      "files": [{ "type": "blade", "path": "skeleton.blade.php" }],
+      "categories": [
+        "ui",
+        "feedback",
+        "layout"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "skeleton.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/skeleton/meta.json"
@@ -299,10 +581,21 @@
     {
       "name": "breadcrumbs",
       "description": "Navigation breadcrumb component with customizable separators and links.",
-      "categories": ["ui", "navigation", "layout"],
-      "files": [{ "type": "blade", "path": "breadcrumbs.blade.php" }],
+      "categories": [
+        "ui",
+        "navigation",
+        "layout"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "breadcrumbs.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/breadcrumbs/meta.json"
@@ -310,13 +603,25 @@
     {
       "name": "accordion",
       "description": "Collapsible accordion component with smooth animations and multiple item support.",
-      "categories": ["ui", "interactive", "layout"],
+      "categories": [
+        "ui",
+        "interactive",
+        "layout"
+      ],
       "files": [
-        { "type": "blade", "path": "accordion.blade.php" },
-        { "type": "js", "path": "accordion.js" }
+        {
+          "type": "blade",
+          "path": "accordion.blade.php"
+        },
+        {
+          "type": "js",
+          "path": "accordion.js"
+        }
       ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/accordion/meta.json"
@@ -324,10 +629,21 @@
     {
       "name": "modal",
       "description": "Accessible modal dialog with backdrop, transition animations, and size options.",
-      "categories": ["ui", "overlay", "interactive"],
-      "files": [{ "type": "blade", "path": "modal.blade.php" }],
+      "categories": [
+        "ui",
+        "overlay",
+        "interactive"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "modal.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/modal/meta.json"
@@ -335,13 +651,25 @@
     {
       "name": "rating",
       "description": "Star rating component with half-star support, hover effects, and value display.",
-      "categories": ["ui", "forms", "interactive"],
+      "categories": [
+        "ui",
+        "forms",
+        "interactive"
+      ],
       "files": [
-        { "type": "blade", "path": "rating.blade.php" },
-        { "type": "js", "path": "rating.js" }
+        {
+          "type": "blade",
+          "path": "rating.blade.php"
+        },
+        {
+          "type": "js",
+          "path": "rating.js"
+        }
       ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/rating/meta.json"
@@ -349,10 +677,21 @@
     {
       "name": "input",
       "description": "Form input field with label, error handling, password toggle, and icons.",
-      "categories": ["forms", "ui", "input"],
-      "files": [{ "type": "blade", "path": "input.blade.php" }],
+      "categories": [
+        "forms",
+        "ui",
+        "input"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "input.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/input/meta.json"
@@ -360,13 +699,25 @@
     {
       "name": "date-picker",
       "description": "Date picker with calendar interface, date formatting, and validation.",
-      "categories": ["ui", "forms", "input"],
+      "categories": [
+        "ui",
+        "forms",
+        "input"
+      ],
       "files": [
-        { "type": "blade", "path": "date-picker.blade.php" },
-        { "type": "js", "path": "date-picker.js" }
+        {
+          "type": "blade",
+          "path": "date-picker.blade.php"
+        },
+        {
+          "type": "js",
+          "path": "date-picker.js"
+        }
       ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/date-picker/meta.json"
@@ -374,13 +725,25 @@
     {
       "name": "sortable-list",
       "description": "Drag-and-drop sortable list component with handles and animations.",
-      "categories": ["ui", "interactive", "layout"],
+      "categories": [
+        "ui",
+        "interactive",
+        "layout"
+      ],
       "files": [
-        { "type": "blade", "path": "sortable-list.blade.php" },
-        { "type": "js", "path": "sortable-list.js" }
+        {
+          "type": "blade",
+          "path": "sortable-list.blade.php"
+        },
+        {
+          "type": "js",
+          "path": "sortable-list.js"
+        }
       ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/sortable-list/meta.json"
@@ -388,10 +751,21 @@
     {
       "name": "progress-bar",
       "description": "Progress bar component with variants, sizes, and percentage display.",
-      "categories": ["ui", "feedback", "data"],
-      "files": [{ "type": "blade", "path": "progress-bar.blade.php" }],
+      "categories": [
+        "ui",
+        "feedback",
+        "data"
+      ],
+      "files": [
+        {
+          "type": "blade",
+          "path": "progress-bar.blade.php"
+        }
+      ],
       "dependencies": {
-        "composer": ["mallardduck/blade-lucide-icons"],
+        "composer": [
+          "mallardduck/blade-lucide-icons@1.26.1"
+        ],
         "npm": []
       },
       "path": "components/progress-bar/meta.json"

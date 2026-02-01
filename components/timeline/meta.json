@@ -1,7 +1,11 @@
 {
   "name": "timeline",
   "description": "Timeline component with vertical/horizontal layouts, animations, and multiple event types.",
-  "categories": ["ui", "data", "layout"],
+  "categories": [
+    "ui",
+    "data",
+    "layout"
+  ],
   "files": [
     {
       "type": "blade",
@@ -9,7 +13,9 @@
     }
   ],
   "dependencies": {
-    "composer": ["mallardduck/blade-lucide-icons"],
+    "composer": [
+      "mallardduck/blade-lucide-icons@1.26.1"
+    ],
     "npm": []
   }
 }

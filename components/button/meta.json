@@ -1,7 +1,11 @@
 {
   "name": "button",
   "description": "A versatile button component with variants, sizes, and icon support.",
-  "categories": ["ui", "forms", "interactive"],
+  "categories": [
+    "ui",
+    "forms",
+    "interactive"
+  ],
   "files": [
     {
       "type": "blade",
@@ -9,7 +13,9 @@
     }
   ],
   "dependencies": {
-    "composer": ["mallardduck/blade-lucide-icons"],
+    "composer": [
+      "mallardduck/blade-lucide-icons@1.26.1"
+    ],
     "npm": []
   }
 }

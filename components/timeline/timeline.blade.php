@@ -69,8 +69,9 @@
 @if($variant === 'vertical')
 <div
     {{ $attributes->merge(['class' => 'timeline-vertical relative']) }}
-    x-data="{ shown: [] }"
-    x-init="setTimeout(() => shown = {{ json_encode(array_keys($items)) }}, 100)"
+    x-data="timeline({
+        items: {{ json_encode($items) }}
+    })"
 >
     <div class="relative">
         {{-- Vertical Line --}}
@@ -162,8 +163,9 @@
 {{-- Horizontal Mode --}}
 <div
     {{ $attributes->merge(['class' => 'timeline-horizontal relative overflow-x-auto pb-4']) }}
-    x-data="{ shown: [] }"
-    x-init="setTimeout(() => shown = {{ json_encode(array_keys($items)) }}, 100)"
+    x-data="timeline({
+        items: {{ json_encode($items) }}
+    })"
 >
     <div class="relative min-w-max">
         {{-- Horizontal Line --}}

@@ -19,15 +19,10 @@
 @endphp
 
 <div
-    x-data="{
-        toasts: [],
-        counter: 0,
+    x-data="toast({
         duration: {{ $duration }},
-        maxToasts: {{ $maxToasts }},
-
-        add(toast) {
-            const id = ++this.counter;
-            const newToast = {
+        maxToasts: {{ $maxToasts }}
+    })"
                 id,
                 type: toast.type || 'info',
                 title: toast.title || '',
